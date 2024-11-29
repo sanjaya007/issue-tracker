@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/issues/list/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/list/page.css",
+      "static/chunks/app/issues/list/page.js"
+    ],
+    "/issues/list/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/list/loading.css",
+      "static/chunks/app/issues/list/loading.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ]
+  }
+}
