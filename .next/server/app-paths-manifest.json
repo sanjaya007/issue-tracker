@@ -1,5 +1,7 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/issues/new/page": "app/issues/new/page.js",
   "/issues/list/page": "app/issues/list/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
