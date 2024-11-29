@@ -1,23 +1,5 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/issues/list/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/issues/list/loading.css",
-      "static/chunks/app/issues/list/loading.js"
-    ],
-    "/issues/list/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/issues/list/page.css",
-      "static/chunks/app/issues/list/page.js"
-    ],
     "/issues/new/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -29,6 +11,48 @@
       "static/chunks/main-app.js",
       "static/css/app/issues/new/loading.css",
       "static/chunks/app/issues/new/loading.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/issues/list/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/list/page.css",
+      "static/chunks/app/issues/list/page.js"
+    ],
+    "/issues/list/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/list/loading.css",
+      "static/chunks/app/issues/list/loading.js"
+    ],
+    "/issues/[id]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/[id]/loading.css",
+      "static/chunks/app/issues/[id]/loading.js"
+    ],
+    "/issues/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/[id]/page.css",
+      "static/chunks/app/issues/[id]/page.js"
+    ],
+    "/issues/edit/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/edit/[id]/page.css",
+      "static/chunks/app/issues/edit/[id]/page.js"
+    ],
+    "/issues/edit/[id]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/issues/edit/[id]/loading.css",
+      "static/chunks/app/issues/edit/[id]/loading.js"
     ],
     "/page": [
       "static/chunks/webpack.js",

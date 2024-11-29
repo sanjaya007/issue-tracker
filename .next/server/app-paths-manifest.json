@@ -1,7 +1,12 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/issues/new/page": "app/issues/new/page.js",
+  "/issues/[id]/page": "app/issues/[id]/page.js",
+  "/api/issues/route": "app/api/issues/route.js",
   "/issues/list/page": "app/issues/list/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/api/users/route": "app/api/users/route.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/issues/[id]/route": "app/api/issues/[id]/route.js",
+  "/issues/edit/[id]/page": "app/issues/edit/[id]/page.js"
 }
